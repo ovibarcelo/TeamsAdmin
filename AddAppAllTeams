@@ -2,5 +2,5 @@ Connect-MicrosoftTeams
 $teams = Get-Team
 foreach ($team in $teams) {
 $teamId = $team.GroupId
-Add-TeamsAppInstallation -AppID 3699aeb4-f548-429e-973c-063ce56a748b -GroupID $teamId
+Add-TeamsAppInstallation -AppID <your app id> -GroupID $teamId
 }
